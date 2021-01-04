@@ -25,17 +25,6 @@ android_app_import {
 }
 
 android_app_import {
-        name: "ANXScanner",
-        owner: "ANXScanner",
-        apk: "proprietary/system/priv-app/ANXScanner/ANXScanner.apk",
-        certificate: "platform",
-        dex_preopt: {
-                enabled: false,
-        },
-        privileged: true,
-}
-
-android_app_import {
         name: "anxres",
         owner: "anxres",
         apk: "proprietary/system/app/anxres/anxres.apk",
